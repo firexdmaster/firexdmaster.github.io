@@ -1,166 +1,155 @@
----
-layout: default
-title: ron.co
-nav: home
----
-<div id="home" class="header">
-  <div id="video-container">
-    <video autoplay loop class="coverr" poster="/images/typing.jpg">
-    </video>
-  </div>
-  <div class="profile">
-    <img class="circular" src="/images/me.jpg" alt="Profile image"/>
-    <h1>Ron Name</h1>
-    <span class="subheading">Computer Engineer</span>
-  </div>
-  <div class="down-arrow" onclick="$(window).scrollTo($('#introduction'), 400, {offset: -50});">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" width="43px" height="33px" viewBox="0 0 43 33" enable-background="new 0 0 43 33" xml:space="preserve">
-      <g>
-        <path fill="#FFFFFF" d="M0.093,1.294c0,3.176,0,7.686,0,8.77l21.408,21.502l21.406-21.502c0-0.836,0-6.08,0-8.77L21.501,22.796   L0.093,1.294z"></path>
-      </g>
-    </svg>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="introduction" class="grid grid-pad">
-  <div class="col-1-1">
-    <h2 class="heading">Introduction</h2>
-    <p style="text-align:center">Hi, I'm Ron. I am an undergraduate student at Ryerson University, currently majoring in Computer Engineering. I enjoy programming, gaming.</p>
-    <div style="text-align:center">
-    </div>
-  </div>
-</div>
+  <head>
 
-<div class="portfolio-background">
-  <div id="portfolio" class="grid grid-pad">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <div class="col-1-1">
-      <h2 class="heading">Portfolio</h2>
-    </div>
+    <title>Ron Tieu</title>
 
-    <div class="col-1-3">
-      <h3>Cheddar</h3>
-      <a id="cheddarModal" href="#cheddar" class="modal-link">
-        <div class="overlay-container">
-          <div class="overlay">
-            <i class="zmdi zmdi-zoom-in"></i>
-          </div>
-          <img src="/images/cheddar.png" alt="Cheddar"/>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Ron Tieu</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+		<li class="sidebar-nav-item">
+          <a href="pdf/Ron_Tieu_Resum_03-2018.pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+	<div class="container text-center text-black">
+		<img class="rounded-circle" src="img/me.jpg" alt="Self Pic">
+		<h1>Ron Tieu</h1>
+		<h2>Computer Engineering Student</h2>
+	</div>
+		<div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+	<section class="content-section bg-primary text-white" id="about">
+      <div class="container text-center">
+		<div class="content-section-heading text-center">
+			<h2 class="mb-5">ABOUT</h2>
         </div>
-      </a>
-    </div>
-
-    <div class="col-1-3">
-      <h3>Materialist</h3>
-      <a id="materialistModal" href="#materialist" class="modal-link ">
-        <div class="overlay-container">
-          <div class="overlay">
-            <i class="zmdi zmdi-zoom-in"></i>
+        <div class="row">
+			<div class="col-lg-10 mx-auto">
+				<p class="lead mb-5">Hi, I'm Ron. I am an undergraduate student at Ryerson University, currently majoring in Computer Engineering. I enjoy programming, badminton, hikes and gaming.</p>
           </div>
-          <img src="/images/materialist.png" alt="Materialist"/>
         </div>
-      </a>
-    </div>
+      </div>
+    </section>
 
-    <div class="col-1-3">
-      <h3>QWait</h3>
-      <a id="qwaitModal" href="#qwait" class="modal-link">
-        <div class="overlay-container">
-          <div class="overlay">
-            <i class="zmdi zmdi-zoom-in"></i>
+
+    <!-- Portfolio -->
+    <section class="content-section bg-lite text-black" id="portfolio">
+      <div class="container">
+        <div class="content-section-heading text-center">
+			<h2 class="mb-5">PORTFOLIO</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Stationary</h2>
+                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            </a>
           </div>
-          <img src="/images/qwait-showcase.jpg" alt="QWait"/>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Ice Cream</h2>
+                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            </a>
+          </div>
         </div>
-      </a>
-    </div>
-  </div>
-</div>
-
-<div id="contact" class="grid grid-pad">
-  <div class="col-1-1">
-    <h2 class="heading">Contact</h2>
-    <div class="social">
-      <a href="mailto:rontieu@hotmail.com" title="rontieu@hotmail.com" style="left: 0%; right: 66%">
-        <i class="zmdi zmdi-email"></i>
-      </a>
-      <a href="https://github.com/rontieu" title="github.com/rontieu" style="left: 33%; right: 33%">
-        <i class="zmdi zmdi-github-box"></i>
-      </a>
-      <a href="http://www.linkedin.com/in/rontieu" title="linkedin.com/in/rontieu" style="left: 66%; right: 0%">
-        <i class="zmdi zmdi-linkedin-box"></i>
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- Modals -->
-<div id="cheddar" class="modal-container">
-  <div class="modal-background close-cheddar modal-close"></div>
-  <div class="modal-content grid grid-pad">
-    <div class="close-cheddar modal-close modal-close-main"> 
-      <i class="zmdi zmdi-close"></i>
-    </div>
-
-    <div class="col-1-1">
-      <h3 class="heading-modal">Cheddar</h3>
-      <img src="/images/cheddar.png" alt="Cheddar"/>
-      <p>Cheddar is a lightweight reader for Hacker News, so you can read the latest news and comments from Hacker News on your mobile device. It is free, has no ads and uses Material Design. Cheddar has been developed with the purpose to provide a minimalist and intuitive experience, focusing on usability.</p>
-
-      <p>Awarded <a href="http://www.xda-developers.com/apps-of-the-week-material-facebook-hacker-news-web-making-and-pac-man/" title="XDA-Developers Feature">top app of the week by XDA-Developers</a>, writing ”Well-designed social news readers of this caliber do not come very often”.</p>
-
-      <div>
-        <a href="https://play.google.com/store/apps/details?id=co.adrianblan.cheddar" class="btn btn-sm" title="Cheddar on Google Play"><i class="zmdi zmdi-google-play"></i> View on Google Play</a>
       </div>
-      <div>
-        <a href="https://github.com/adrianblp/Cheddar" class="btn btn-sm" title="Cheddar on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
+    </section>
 
-<div id="materialist" class="modal-container">
-  <div class="modal-background close-materialist modal-close"></div>
-  <div class="modal-content grid grid-pad">
-    <div class="close-materialist modal-close modal-close-main"> 
-      <i class="zmdi zmdi-close"></i>
-    </div>
+	
+	<!-- Contact -->
+    <section class="contact-section bg-secondary text-white text-center" id="contact">
+	<footer class="footer text-center">
+		<div class="content-section-heading">
+			<h2 class="mb-5">CONTACT</h2>
+        </div>
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-5" href="mailto:rontieu@hotmail.com">
+              <i class="icon-envelope"></i>
+            </a>
+			</li>
+			<li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-5" href="https://github.com/rontieu">
+				<i class="icon-social-github"></i>
+            </a>
+			</li>
+			<li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/rontieu/">
+              <i class="icon-social-linkedin"></i>
+            </a>
+			</li>
+        </ul>
+        <p class="text-white small mb-0">Copyright &copy; Ron Tieu 2018</p>
+		</footer>
+	</section>
+	
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
-    <div class="col-1-1">
-      <h3 class="heading-modal">Materialist</h3>
-      <img src="/images/materialist.png" alt="Materialist showcase"/>
-      <p>Materialist is a task list for Android using Material Design, it has been created to provide a simple, minimalist and intuitive experience that's in the way as little as possible.</p>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-      <div>
-        <a href="https://play.google.com/store/apps/details?id=co.adrianblan.materialist" class="btn btn-sm" title="Materialist on Google Play"><i class="zmdi zmdi-google-play"></i> View on Google Play</a>
-      </div>
-      <div>
-        <a href="https://github.com/adrianblp/Materialist" class="btn btn-sm" title="Materialist on GitHub"><i class="zmdi zmdi-github-box"></i> View on GitHub</a>
-      </div>
-    </div>
-  </div>
-</div>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-<div id="qwait" class="modal-container">
-  <div class="modal-background close-qwait modal-close"></div>
-  <div class="modal-content grid grid-pad">
-    <div class="close-qwait modal-close modal-close-main"> 
-      <i class="zmdi zmdi-close"></i>
-    </div>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
-    <div class="col-1-1">
+  </body>
 
-      <h3 class="heading-modal">QWait</h3>
-
-      <img src="/images/qwait-showcase.jpg" alt="QWait showcase"/>
-
-      <p>QWait is a responsive, web based queueing system which is used for lab sessions at KTH by both students and assistants. Among my responsibilities included frontend development (AngularJS, HTML) and UX design to provide a consistent and intuitive experience for all types of users and devices.</p>
-
-      <div>
-        <a href="http://qwait.csc.kth.se" class="btn btn-sm" title="QWait Website"><i class="zmdi zmdi-globe"></i> QWait Website</a>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
+</html>
