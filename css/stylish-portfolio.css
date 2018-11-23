@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Stylish Portfolio v5.0.1 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
- */
 
 body,
 html {
@@ -234,7 +229,6 @@ circular {
   display: block;
   position: relative;
   overflow: hidden;
-  max-width: 530px;
   margin: auto auto 1rem;
 }
 
@@ -252,7 +246,7 @@ circular {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #000;
   margin: auto 2rem 2rem;
 }
 
@@ -279,9 +273,9 @@ circular {
   .portfolio-item .caption .caption-content {
     -webkit-transition: opacity 0.25s;
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -293,7 +287,6 @@ circular {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
