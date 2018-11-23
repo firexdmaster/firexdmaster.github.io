@@ -1,1 +1,0 @@
-# [Start Bootstrap - Stylish Portfolio]
